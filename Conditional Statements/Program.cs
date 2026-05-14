@@ -20,11 +20,11 @@
 
             //if (userInput == userName && passInput == password)
             //{
-            //    Console.WriteLine("welcome to the system");
+            //    Console.WriteLine("Welcome!");
             //}
             //else
             //{
-            //    Console.WriteLine("invalid username or password");
+            //    Console.WriteLine("Access denied!");
             //}
 
             #endregion
