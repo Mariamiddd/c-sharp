@@ -25,7 +25,8 @@ namespace loops
             //Console.WriteLine("Enter number!");
             //int num;
             //bool isValid = int.TryParse(Console.ReadLine(), out num);
-
+            //if (isValid)
+            //{
             //    for (int i = 1; i <= num; i++)
             //    {
             //        string spaces = new string(' ', num - i);
@@ -38,6 +39,11 @@ namespace loops
 
             //        Console.WriteLine(spaces + stars);
             //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid input! Please enter a valid number.");
+            //}
             #endregion
 
             #region დავალება3
@@ -59,7 +65,7 @@ namespace loops
 
             #region დავალება4
             //Random r = new Random();
-            
+
             ////1 dan 10mde random number  
             //int randomNumber = r.Next(1, 10);
 
