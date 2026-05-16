@@ -47,19 +47,26 @@ namespace loops
             #endregion
 
             #region დავალება3
-            //    Console.WriteLine("Enter number!");
-            //    int num;
-            //    bool isValid = int.TryParse(Console.ReadLine(), out num);
+            //Console.WriteLine("Enter number!");
+            //int num;
+            //bool isValid = int.TryParse(Console.ReadLine(), out num);
 
+            //if (isValid)
+            //{
             //    int sum = 0;
             //    for (int i = 1; i <= num; i++)
             //    {
-            //        if (i % 2 == 0) { 
-            //        sum = sum + i;
+            //        if (i % 2 == 0)
+            //        {
+            //            sum = sum + i;
 
+            //        }
             //    }
-            //}
             //    Console.WriteLine(sum);
+            //} else {
+            //    Console.WriteLine("Invalid input");
+
+            //}
 
             #endregion
 
