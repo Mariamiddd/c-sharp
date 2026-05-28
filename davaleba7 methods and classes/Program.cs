@@ -39,7 +39,7 @@
             }
             else
             {
-                Console.WriteLine($"Standard Price: ${product1.price} (No active discounts)");
+                Console.WriteLine($"Standard Price: ${product1.price}");
             }
         }
     }
