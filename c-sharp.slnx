@@ -2,5 +2,6 @@
   <Project Path="c-sharp/c-sharp.csproj" />
   <Project Path="Conditional Statements/Conditional Statements.csproj" Id="2c675bef-5da3-4e29-995e-2979e1b6b6d5" />
   <Project Path="davaleba6 massives/davaleba6 massives.csproj" Id="397e3806-4c7a-4752-acb5-8405536a843e" />
+  <Project Path="davaleba7 methods and classes/davaleba7 methods and classes.csproj" Id="6c87d938-ce38-44ec-ba75-0ea400c28fe1" />
   <Project Path="loops/loops.csproj" Id="8f6371a1-133c-45c1-a687-9e87d239a375" />
 </Solution>

@@ -82,16 +82,16 @@ namespace davaleba6_massives
             #endregion
 
             #region  davaleba 4
-            //string[] newString = { "fdsa", "asdf", "sdfg", "dfgh", "fghj" };
-            //foreach (string str in newString)
-            //{
-            //    Console.WriteLine(str);
-            //}
+            string[] newString = { "fdsa", "asdf", "sdfg", "dfgh", "fghj" };
+            foreach (string str in newString)
+            {
+                Console.WriteLine(str);
+            }
 
             #endregion
 
             #region  davaleba 5
-            //string[] emailCheck = { "example@gmail.com", "example2@gmail.com" , "example3@gmail.com", "exampleAgmail.com" };
+            //string[] emailCheck = { "example@gmail.com", "example2@gmail.com", "example3@gmail.com", "exampleAgmail.com" };
 
             //for (int i = 0; i < emailCheck.Length; i++)
             //{
@@ -101,7 +101,7 @@ namespace davaleba6_massives
 
             //    foreach (char c in currentEmail)
             //    {
-            //        if (c == '@')  
+            //        if (c == '@')
             //        {
             //            isSymbol = true;
             //            break;
