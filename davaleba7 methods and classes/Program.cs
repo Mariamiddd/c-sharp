@@ -21,6 +21,7 @@
             product1.raiseQuantity(20);
 
 
+
             //product information displayed in console
             Console.WriteLine($"Product Name: {product1.name}");
             Console.WriteLine($"Description: {product1.description}");
@@ -28,12 +29,13 @@
             Console.WriteLine($"Brand: {product1.brand}");
             Console.WriteLine($"Category: {product1.category}");
             Console.WriteLine($"Rating: {product1.rating}");
-            Console.WriteLine($"Available: {(product1.isAvailable ? "maragshia" : "araa maragshi")}");
+            Console.WriteLine($"Available: {(product1.isAvailable ? "in stock" : "not in stockk")}");
 
             if (product1.hasActiveDiscount())
             {
                 Console.WriteLine($"original price: ${product1.price}");
                 Console.WriteLine($"discount price: ${discountedPrice}");
+                Console.WriteLine($"You Save: ${product1.savedAmount()}");
             }
             else
             {
@@ -75,6 +77,13 @@
         {
             return discountPercent > 0;
         }
+
+        // profit by discount
+        public double savedAmount()
+        {
+            return price * (discountPercent / 100);
+        }
+
 
     }
 
